@@ -7,7 +7,7 @@ def client():
     with app.test_client() as client:
         yield client
 
-def test_atm(client):
+def test_should_return_the_minimum_number_of_cells(client):
 
     amount = {'valor': 380}
 
