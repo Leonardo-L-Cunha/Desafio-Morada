@@ -13,7 +13,7 @@ def test_atm(client):
 
     response = client.post('/api/saque', json=amount)
 
-    assert response.status_code == 201
+    assert response.status_code == 200
 
     response_data = response.get_json()
 
