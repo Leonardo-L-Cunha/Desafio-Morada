@@ -5,4 +5,4 @@ app = Flask(__name__)
 from view import *
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=8080, debug=True)
+    app.run(host='localhost', port=5000, debug=True)
