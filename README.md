@@ -44,11 +44,11 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-4. Rode o comando para executar o challenge:
+4. Rode o comando para rodar o servidor local:
 ```shell
 python app.py
 ```
-## Para rodar o test
+## Para rodar o test `nao precisa ligar o servidor`:
 ```bash
 pytest -v
 ```
