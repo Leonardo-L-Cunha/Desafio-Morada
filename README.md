@@ -44,7 +44,7 @@ source venv/Scripts/activate
 pip install -r requirements.txt
 ```
 
-4. Rode o comando para rodar o servidor local:
+4. Rode o comando para ativar o servidor localmente:
 ```shell
 python app.py
 ```
