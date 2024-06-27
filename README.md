@@ -3,7 +3,7 @@
 ## Descrição
 E uma API simples que simula saques em um caixa eletrônico com um numero minimo de cedulas.
 Para fazer esse projeto, utilizei o Flask do Python por ser um projeto simples e nao vi a necessidade de usar um banco de dados. Decidi usar o Flask e também utilizei o pytest para escrever um teste e verificar a lógica do caixa eletrônico.
-Poderia de usado o Django do python ou entao o typescript junto com nodeJs com express que saberia fazer a api, mas pelo fato do de ser uma api simples decidi utilizar o flask
+Poderia de usado o Django do python ou entao o typescript junto com nodeJs com express que saberia fazer a api, mas pelo fato  de ser uma api simples decidi utilizar o flask
 
 ## Principais Desafios
 O unico desafio de fato dessa API foi a lógica para verificar a quantidade mínima de cédulas para saque, que não achei tão difícil, mas foi a parte que precisei raciocinar mais.
