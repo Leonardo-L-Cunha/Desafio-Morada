@@ -48,7 +48,13 @@ pip install -r requirements.txt
 ```shell
 python app.py
 ```
-## Para rodar o test `nao precisa ligar o servidor`:
+
+4. Rota para fazer a requisição POST:
+```shell
+'http://localhost:5000/api/saque'
+```
+
+## Para rodar o test:
 ```bash
 pytest -v
 ```
