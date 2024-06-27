@@ -49,19 +49,19 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## Rota para fazer a requisição POST:
+### Rota para fazer a requisição POST:
 ```shell
 'http://localhost:5000/api/saque'
 ```
 
-## A api so aceita dados se for inteiro exemplo:
+### A api so aceita dados se for inteiro exemplo:
 ```shell
 {
   "valor": 380
 }
 ```
 
-## Para rodar o test:
+### Para rodar o test:
 ```bash
 pytest -v
 ```
