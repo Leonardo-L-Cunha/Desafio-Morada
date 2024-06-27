@@ -15,3 +15,36 @@ Acesso a chave desse dicionário e atribuo o valor da divisão inteira do valor 
 e faço a divisão inteira com a próxima chave, que é 50, o que irá retornar 1. E assim, vou fazendo a divisão de todas as cédulas permitidas com o valor enviado na requisição e pegando o resto até acabar o loop 
 e retornar o dicionário com as cédulas mínimas necessárias para o saque.
 
+## Rodando o projeto no seu computador
+
+0. Voce precisa ter o python instalado no seu computador
+```bash
+python -V (verificar a versão do Python)
+```
+
+1. Crie seu ambiente virtual:
+```bash
+python -m venv venv
+```
+
+2. Ative seu venv:
+```bash
+# Linux:
+source venv/bin/activate
+
+# Windows (Powershell):
+.\venv\Scripts\activate
+
+# Windows (Git Bash):
+source venv/Scripts/activate
+```
+
+3. Instale as dependências do projeto `Flask-Pytest`:
+```shell
+pip install -r requirements.txt
+```
+
+4. Rode o comando para executar o challenge:
+```shell
+python app.py
+```
