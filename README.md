@@ -15,7 +15,7 @@ Acesso a chave desse dicionário e atribuo o valor da divisão inteira do valor 
 e faço a divisão inteira com a próxima chave, que é 50, o que irá retornar 1. E assim, vou fazendo a divisão de todas as cédulas permitidas com o valor enviado na requisição e pegando o resto até acabar o loop 
 e retornar o dicionário com as cédulas mínimas necessárias para o saque.
 
-## Rodando o projeto no seu computador
+## Como Rodar o projeto no seu computador
 
 0. Voce precisa ter o python instalado no seu computador
 ```bash
