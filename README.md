@@ -48,3 +48,7 @@ pip install -r requirements.txt
 ```shell
 python app.py
 ```
+## Para rodar o test
+```bash
+pytest -v
+```
